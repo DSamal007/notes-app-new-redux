@@ -13,9 +13,9 @@ app.use(cors())
 app.use(express.json())
 
 // ROute Handlers || Request Handlers
-app.get('/', (req,res) => {
-    res.send('Welcome to the page')
-})
+// app.get('/', (req,res) => {
+//     res.send('Welcome to the page')
+// })
 
 app.use('/',router)
 
